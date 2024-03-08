@@ -1,0 +1,41 @@
+// =========================================================
+// * 2Cexy React
+// =========================================================
+
+
+// =========================================================
+
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+// Bootstrap mixins and functions
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Change variables here
+@import "2cexy/variables";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Vendor
+@import "2cexy/vendor";
+
+@import "2cexy/mixins";
+@import "2cexy/functions";
+
+// Utilities
+@import "2cexy/reboot";
+@import "2cexy/utilities";
+
+// Layout
+@import "2cexy/layout";
+
+// Components
+@import "2cexy/components";
+
+// Pages
+@import "2cexy/_pages";
+
+// write your custom styles here!
